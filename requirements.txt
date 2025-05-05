@@ -1,0 +1,13 @@
+streamlit>=1.32.0
+python-dotenv>=1.0.1
+openai>=1.69.0
+duckduckgo-search>=7.5.5
+langchain>=0.3.21
+langchain-community>=0.3.19
+pydantic>=2.8.2
+pydantic-settings>=2.8.1
+httpx>=0.28.1
+rich>=13.7.1
+numpy>=2.2.4
+setuptools>=65.5.1
+wheel>=0.40.0 

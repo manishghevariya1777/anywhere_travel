@@ -4,13 +4,13 @@ Anywhere Travel is a modern, user-friendly travel planning web app built with St
 
 ## Features
 
-Modern, Responsive UI: Clean cards, beautiful color theme, and mobile-friendly layout.
-Fixed Header & Footer: Professional navigation and branding.
-Multi-Section Form: Collects trip details, duration, preferences, and pace.
-Smart Validation: Ensures all required fields are filled.
-Personalised Plan Generation: Integrates with AI agents and APIs for destination info, weather, and cost estimation.
-Downloadable Itinerary: Users can download their plan as a Markdown file.
-Accessible & User-Friendly: Visible labels, color contrast, and keyboard navigation.
+- Modern, Responsive UI: Clean cards, beautiful color theme, and mobile-friendly layout.
+- Fixed Header & Footer: Professional navigation and branding.
+- Multi-Section Form: Collects trip details, duration, preferences, and pace.
+- Smart Validation: Ensures all required fields are filled.
+- Personalised Plan Generation: Integrates with AI agents and APIs for destination info, weather, and cost estimation.
+- Downloadable Itinerary: Users can download their plan as a Markdown file.
+- Accessible & User-Friendly: Visible labels, color contrast, and keyboard navigation.
 
 ## Installation
 
@@ -27,11 +27,13 @@ python-dotenv
 
 3. Set Environment Variables
 Create a .env file in the project root with your API keys:
+```
 OPENAI_API_KEY=your_openai_key
 OPENWEATHER_API_KEY=your_openweather_key
 EXCHANGERATES_API_KEY=your_exchangerates_key
+```
 
-4. Run the App
+5. Run the App
 streamlit run app.py
 
 

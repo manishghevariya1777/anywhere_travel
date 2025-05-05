@@ -36,7 +36,7 @@ streamlit run app.py
 
 
 ## Project Structure
-
+```
 .
 ├── app.py
 ├── agents/
@@ -51,7 +51,7 @@ streamlit run app.py
 ├── requirements.txt
 ├── .env.example
 └── README.md
-
+```
 ## Security
 
 - Never commit your `.env` file or expose your API keys

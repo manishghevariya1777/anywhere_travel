@@ -1,16 +1,17 @@
-# AI Travel Planner
+# Anywhere Travel – Modern Streamlit Travel Planner
 
-An intelligent travel planning application that uses AI to generate personalized travel itineraries based on user preferences.
+Anywhere Travel is a modern, user-friendly travel planning web app built with Streamlit. It features a beautiful, responsive UI with a light navy, white, and ocean-inspired color palette. Users can plan trips, select preferences, and download personalized itineraries.
 
 ## Features
 
-- AI-powered travel research and planning
-- Personalized itinerary generation
-- Real-time weather and attraction information
-- Budget-aware recommendations
-- Interactive user interface
-- Exportable travel plans
-- User feedback system
+Modern, Responsive UI: Clean cards, beautiful color theme, and mobile-friendly layout.
+Fixed Header & Footer: Professional navigation and branding.
+Banner Image: Sets the mood for travel inspiration.
+Multi-Section Form: Collects trip details, duration, preferences, and pace.
+Smart Validation: Ensures all required fields are filled.
+Personalized Plan Generation: Integrates with AI agents and APIs for destination info, weather, and cost estimation.
+Downloadable Itinerary: Users can download their plan as a Markdown file.
+Accessible & User-Friendly: Visible labels, color contrast, and keyboard navigation.
 
 ## Installation
 
@@ -20,57 +21,37 @@ git clone https://github.com/yourusername/travel-planner.git
 cd travel-planner
 ```
 
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+2. Install Dependencies
+Create a requirements.txt with:
+streamlit
+python-dotenv
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+3. Set Environment Variables
+Create a .env file in the project root with your API keys:
+OPENAI_API_KEY=your_openai_key
+OPENWEATHER_API_KEY=your_openweather_key
+EXCHANGERATES_API_KEY=your_exchangerates_key
 
-4. Create a `.env` file in the project root:
-```bash
-OPENAI_API_KEY=your_openai_api_key_here
-```
+4. Run the App
+streamlit run app.py
 
-## Usage
-
-1. Start the application:
-```bash
-streamlit run src/app.py
-```
-
-2. Open your browser and navigate to `http://localhost:8501`
-
-3. Enter your travel preferences:
-   - Destination
-   - Trip duration
-   - Interests
-   - Budget range
-   - Travel pace
-
-4. Click "Generate Travel Plan" to create your personalized itinerary
-
-5. Download or share your travel plan
 
 ## Project Structure
 
-```
-travel_planner/
-├── .env                    # Environment variables
-├── .gitignore             # Git ignore file
-├── README.md              # Project documentation
-├── requirements.txt       # Project dependencies
-├── src/
-│   ├── __init__.py
-│   ├── agents/           # AI agents for research and planning
-│   ├── utils/           # Utility functions
-│   └── app.py           # Main Streamlit application
-└── tests/               # Test files
-```
+.
+├── app.py
+├── agents/
+│   ├── search_agent.py
+│   └── planning_agent.py
+├── utils/
+│   ├── markdown_utils.py
+│   ├── validation.py
+│   ├── weather_currency.py
+│   ├── cost_estimation.py
+│   └── storage.py
+├── requirements.txt
+├── .env.example
+└── README.md
 
 ## Security
 

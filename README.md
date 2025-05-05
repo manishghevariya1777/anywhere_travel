@@ -16,8 +16,8 @@ Anywhere Travel is a modern, user-friendly travel planning web app built with St
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/travel-planner.git
-cd travel-planner
+git clone https://github.com/manishghevariya1777/anywhere_travel.git
+cd anywhere_travel
 ```
 
 2. Install Dependencies

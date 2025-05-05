@@ -1,6 +1,6 @@
 # Anywhere Travel – Modern Streamlit Travel Planner
 
-Anywhere Travel is a modern, user-friendly travel planning web app built with Streamlit. It features a beautiful, responsive UI with a light navy, white, and ocean-inspired color palette. Users can plan trips, select preferences, and download personalized itineraries.
+Anywhere Travel is a modern, user-friendly travel planning web app built with Streamlit. It features a beautiful, responsive UI. Users can plan trips, select preferences, and download personalized itineraries.
 
 ## Features
 
